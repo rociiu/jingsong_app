@@ -16,6 +16,8 @@ gem 'unicorn'
 gem 'mina'
 gem 'mina-unicorn', require: false
 
+gem 'httparty', require: false
+
 group :development, :test do
   gem 'byebug'
   gem 'web-console', '~> 2.0'
