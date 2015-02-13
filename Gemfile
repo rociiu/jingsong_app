@@ -9,13 +9,7 @@ gem 'coffee-rails', '~> 4.0.0'
 gem 'jquery-rails'
 gem 'jbuilder', '~> 2.0'
 
-gem 'spring',        group: :development
-
-gem 'unicorn'
-
 gem 'mysql2'
-
-gem 'mina'
 
 gem 'unicorn'
 gem 'mina'
