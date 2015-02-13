@@ -1,4 +1,7 @@
 Rails.application.routes.draw do
+  namespace :api do
+    get 'wx' => 'weixin#index'
+  end
   root 'home#index'
 
   # The priority is based upon order of creation: first created -> highest priority.
